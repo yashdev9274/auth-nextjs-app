@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import {useRouter} from "next/navigation";
-import {axios} from "axios";
+import {Axios} from "axios";
 
 
 
@@ -76,7 +76,7 @@ export default function SignupPage() {
             className="p-2 border border-gray-300 rounded-lg mb-4 focus: outline-none focus:border-gray-600"
             >{buttonDisabled ? "No SingnUp" : "SignUp"}</button>
 
-            <Link href="/login">Visit Login Page</Link>
+            <Link href="/login">Visit Log in Page</Link>
 
         </div>
     )
